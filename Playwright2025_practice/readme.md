@@ -116,6 +116,20 @@ Handle RadioButton and Checkboxes -
 
 https://www.dummyticket.com/dummy-ticket-for-visa-application/
 
+Assertion - https://playwright.dev/docs/test-assertions
+
+Handle RadioButton and Checkboxes -
+
+https://www.dummyticket.com/dummy-ticket-for-visa-application/
+
+Handle Dropdown and Auto Suggestion Dropdown
+
+https://www.dummyticket.com/dummy-ticket-for-visa-application/
+
+Handle below 3 Dropdown -
+
+Purpose of dummy ticket (optional) Country State
+
 Training Repo
 ---------------
 [Go to Training repo](https://github.com/ishatesting7/Playwright_Automation_July2025/tree/main)
