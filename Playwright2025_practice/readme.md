@@ -133,3 +133,30 @@ Purpose of dummy ticket (optional) Country State
 Training Repo
 ---------------
 [Go to Training repo](https://github.com/ishatesting7/Playwright_Automation_July2025/tree/main)
+20 pages -
+-------
+pageObject - 20 js file - We will not use tag in this file
+
+test
+
+Admin
+Job
+Jobtest01.spec.js test('')
+Jobtest02.spec.js
+User
+Leaves
+Dashboard
+Assigment Details - Total 12 Test Cases - 6th Aug 2025
+--------------
+Login in orange HRMS (beforeEach)
+Validate each menu option - Such as Admin, PIM, Leaves and so on
+After each validation - Logout - Confirm - You are logout (afterEach)
+Selector Hub - Installation https://selectorshub.com/ Install for Chrome
+
+Assigment Details - Total 12 Test Cases - 7th Aug 2025
+------------
+Create an end to end test case for Job Titles
+Create an end to end test case for Pay Grades
+Create an end to end test case for Employement Status
+Create an end to end test case for Job Categories
+Create an end to end test case for Work Shifts
