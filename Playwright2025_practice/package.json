@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "runAllTest":"npx playwright test",
-    "runAllTestWith2Worker":"npx playwright test --workers=2",
+    "runAllTestWith2Worker":"npx playwright test --workers=4",
     "showReport":"npx playwright show-report",
     "runUITest":"npx playwright test --ui"
   },
