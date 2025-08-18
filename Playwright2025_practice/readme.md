@@ -160,3 +160,89 @@ Create an end to end test case for Pay Grades
 Create an end to end test case for Employement Status
 Create an end to end test case for Job Categories
 Create an end to end test case for Work Shifts
+
+--------------------------------------------------------
+POM 
+---
+- Class File (Pages Files 15 pages)
+  - page locators 
+  - page functions
+
+- tests
+  - loginTest.spec.js
+  - homepageTest.spec.js
+  - aboutusTest.spec.js
+  
+
+
+
+
+
+
+CUCUMBER
+--------
+
+
+
+LLM + MCP Playwright + Agent
+----------------------------
+
+LLM - Large Language Model
+
+ChatGPT
+Gemini
+Perplexity AI
+Cloude
+
+History
+
+LLM cannot do 
+1. Opening a browser and entering username/password
+2. Connect to the database
+3. Call APIs and Show the response
+
+
+Prompting - Prompt Engineer
+---------------------------
+
+Agents
+------
+An agent is a system who is taking the instruction from an LLM and perform and convert into real time action using external tools
+
+
+User --> Prompt --> LLM --> Agent ---> MCP
+
+What is MCP - Model Context Protocol
+MCP is a kind of framwork, which is reponsible for connecting LLM to real world tools such as DB, Browsers, APIs
+
+
+MCP is acting a bridge --> Between LLM and Your application (AUT)
+
+==================================================================
+Test Data
+---------
+- Excel ---> JSON ---> Read the value from JSON
+
+- JSON
+- CSV
+- text file
+
+
+Report
+-----------------
+https://www.npmjs.com/package/allure-playwright
+
+
+Official page - https://www.npmjs.com/package/allure-playwright
+
+Generate Allure Report after the tests are executed:
+
+npx playwright test
+
+allure generate ./allure-results -o ./allure-report
+
+allure generate ./allure-results -o ./allure-report --clean
+
+Open the generated report:
+
+allure open ./allure-report

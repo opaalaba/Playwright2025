@@ -4,16 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "runAllTest":"npx playwright test",
-    "runAllTestWith2Worker":"npx playwright test --workers=4",
-    "showReport":"npx playwright show-report",
-    "runUITest":"npx playwright test --ui"
+    "runAllTest": "npx playwright test",
+    "runAllTestWith2Worker": "npx playwright test --workers=4",
+    "showReport": "npx playwright show-report",
+    "runUITest": "npx playwright test --ui"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.54.1",
-    "@types/node": "^24.0.14"
+    "@types/node": "^24.0.14",
+    "allure-playwright": "^3.3.3"
   }
 }
